@@ -17,3 +17,9 @@ Home, About, Insights, Dashboard 1, Dashboard 2, Story.
 
 ## Data
 Simulated dataset with the same structure as the project dataset: 60 countries, 50 sports, 1992 to 2026.
+
+## Demo Video
+https://drive.google.com/file/d/1mz1GfmDecH94gDHBfBsRJvFT_XnQXx-a/view?usp=drive_link
+
+## Documentation
+Full project documentation
