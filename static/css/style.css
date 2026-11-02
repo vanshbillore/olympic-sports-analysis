@@ -1,0 +1,8 @@
+body { font-family: Arial, Helvetica, sans-serif; background: #f4f6fb; color: #1f2a44; }
+.hero { padding: 120px 0; background: linear-gradient(135deg, #0b1d3a 0%, #1d4ed8 60%, #0b1d3a 100%); }
+.hero .gold { color: #fbbf24; }
+.stats { background: #0b1d3a; }
+.stat { font-size: 2.2rem; font-weight: bold; color: #fbbf24; }
+.section-title { border-left: 5px solid #1d4ed8; padding-left: 12px; margin-bottom: 16px; }
+.insight { border-top: 4px solid #1d4ed8; }
+tableau-viz { display: block; width: 100%; height: 1000px; background: #fff; }

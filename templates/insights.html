@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}Insights | Olympics Analytics{% endblock %}
+{% block content %}
+<section class="container my-5">
+  <h2 class="section-title">Key Insights</h2>
+  <p class="text-muted">Findings from the dashboards in this project.</p>
+  <div class="row g-4">
+    <div class="col-md-4"><div class="card insight h-100 shadow-sm"><div class="card-body">
+      <h5>Top Medal Winners</h5><p>The United States leads with 1,258 medals, followed by China (858) and Russia (502).</p></div></div></div>
+    <div class="col-md-4"><div class="card insight h-100 shadow-sm"><div class="card-body">
+      <h5>Regional Efficiency</h5><p>North America has the highest medal efficiency (18.51%), then Asia (12.28%). Africa (3.64%) is lowest.</p></div></div></div>
+    <div class="col-md-4"><div class="card insight h-100 shadow-sm"><div class="card-body">
+      <h5>Sport Efficiency</h5><p>Water Sports has the highest average medals per athlete (0.122), followed by Sliding and Cycling.</p></div></div></div>
+    <div class="col-md-4"><div class="card insight h-100 shadow-sm"><div class="card-body">
+      <h5>Host Nation Advantage</h5><p>Hosts win more at home: the United States won 198 medals as host and China 115.</p></div></div></div>
+    <div class="col-md-4"><div class="card insight h-100 shadow-sm"><div class="card-body">
+      <h5>Regional Distribution</h5><p>Europe leads with 2,440 medals, ahead of North America (1,534) and Asia (1,505).</p></div></div></div>
+    <div class="col-md-4"><div class="card insight h-100 shadow-sm"><div class="card-body">
+      <h5>Investment vs Medals</h5><p>Medal totals rise with sports investment, and the United States is the clear top outlier.</p></div></div></div>
+  </div>
+</section>
+{% endblock %}

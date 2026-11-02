@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}About | Olympics Analytics{% endblock %}
+{% block content %}
+<section class="container my-5">
+  <h2 class="section-title">About This Project</h2>
+  <p class="lead">This project analyses Olympic performance from 1992 to 2026 for 60 countries and 50 sports, using Tableau dashboards and a story embedded in a Flask web application.</p>
+  <div class="row g-4 mt-2">
+    <div class="col-md-4"><div class="card h-100 shadow-sm"><div class="card-body">
+      <h5>Priya: Performance Strategist</h5><p>Which sport categories give the best medal return per athlete, and how does her country compare with the top nations?</p></div></div></div>
+    <div class="col-md-4"><div class="card h-100 shadow-sm"><div class="card-body">
+      <h5>Carlos: Investment Analyst</h5><p>Which countries and regions turn sports investment into medals most efficiently?</p></div></div></div>
+    <div class="col-md-4"><div class="card h-100 shadow-sm"><div class="card-body">
+      <h5>William: Data Journalist</h5><p>How have medal totals changed over time, and do host nations win more at home?</p></div></div></div>
+  </div>
+  <h4 class="mt-5">Tools and method</h4>
+  <ul>
+    <li>Tableau Public: data connection, 4 calculated fields, charts, 2 dashboards and a story</li>
+    <li>Flask (Python): web application with Home, About, Insights, Dashboard and Story pages</li>
+    <li>Tableau JavaScript Embedding API: interactive embedding of the published views</li>
+    <li>Bootstrap 5: responsive layout</li>
+  </ul>
+</section>
+{% endblock %}
